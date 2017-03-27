@@ -1,7 +1,7 @@
 # extract-typedefs
 Extracts flow type definitions of sample JSON values.
 
-##Usage
+## Usage
 
 ```javascript
 
@@ -52,7 +52,7 @@ const me /*:Person*/ = {
 }
 
 ```
-##Future development
+## Future development
 * Support TS defs
 * Add options for toggling option types.
 * Add a CLI part which works with URL endpoints.
