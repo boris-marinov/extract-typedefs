@@ -2,6 +2,7 @@
 Extracts flow type definitions of sample JSON values.
 
 ##Usage
+
 ```javascript
 
 //@flow
@@ -51,3 +52,7 @@ const me /*:Person*/ = {
 }
 
 ```
+##Future development
+* Support TS defs
+* Add options for toggling option types.
+* Add a CLI part which works with URL endpoints.
