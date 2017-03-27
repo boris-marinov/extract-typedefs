@@ -1,0 +1,29 @@
+{
+  "name": "extract-typedefs",
+  "version": "1.0.0",
+  "description": "Extracts flow type definitions of sample JSON values.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boris-marinov/extract-typedefs.git"
+  },
+  "keywords": [
+    "flow",
+    "json",
+    "extract",
+    "type",
+    "definitions"
+  ],
+  "author": "Boris Marinov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boris-marinov/extract-typedefs/issues"
+  },
+  "homepage": "https://github.com/boris-marinov/extract-typedefs#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}

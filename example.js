@@ -1,9 +1,3 @@
-# extract-typedefs
-Extracts flow type definitions of sample JSON values.
-
-##Usage
-```javascript
-
 //@flow
 
 const extractTypedefs = require('./index.js')
@@ -50,4 +44,3 @@ const me /*:Person*/ = {
     parents: []
 }
 
-```
