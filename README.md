@@ -45,7 +45,7 @@ import type {Person, Relation} from './types.js'
 */
 
 
-//Voala, typed JSON API:
+//Voila, a typed JSON API:
 const me /*:Person*/ = {
     id:111, 
     name:'Boris',
