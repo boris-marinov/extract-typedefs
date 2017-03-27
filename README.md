@@ -1,6 +1,8 @@
 # extract-typedefs
 Extracts flow type definitions of sample JSON values.
 
+[ ![npm](https://nodei.co/npm/extract-typedefs.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/extract-typedefs)
+
 ## Usage
 
 ```javascript
