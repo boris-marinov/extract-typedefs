@@ -52,7 +52,7 @@ const me /*:Person*/ = {
 }
 
 ```
-## Future development
+## Future Development Ideas
 * Support TS defs
 * Add options for toggling option types.
 * Add a CLI part which works with URL endpoints.
