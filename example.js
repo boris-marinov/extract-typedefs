@@ -28,7 +28,9 @@ const sampleData/*: {person: Person, relation: Relation} */= {
 
 
 //Save the input of this function in a file:
-console.log(extractTypedefs(sampleData))
+console.log(extractTypedefs.flow(sampleData))
+
+console.log(extractTypedefs.ts(sampleData))
 
 //Require the file
 /*::
@@ -36,7 +38,7 @@ import type {Person, Relation} from './types.js'
 */
 
 
-//Voala, typed JSON API:
+//Voala, a typed JSON API:
 const me /*:Person*/ = {
     id:111, 
     name:'Boris',
