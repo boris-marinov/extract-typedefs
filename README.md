@@ -1,13 +1,11 @@
 # extract-typedefs
-Extracts flow type definitions of sample JSON values.
+Extracts Flow or TypeScript type definitions of sample JSON values.
 
 [ ![npm](https://nodei.co/npm/extract-typedefs.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/extract-typedefs)
 
 ## Usage
 
 ```javascript
-
-//@flow
 
 const extractTypedefs = require('./index.js')
 
@@ -37,7 +35,7 @@ const sampleData/*: {person: Person, relation: Relation} */= {
 
 
 //Save the input of this function in a file:
-console.log(extractTypedefs(sampleData))
+console.log(extractTypedefs.flow(sampleData))
 
 //Require the file
 /*::
@@ -55,6 +53,4 @@ const me /*:Person*/ = {
 
 ```
 ## Future Development Ideas
-* Support TS defs
-* Add options for toggling option types.
 * Add a CLI part which works with URL endpoints.
